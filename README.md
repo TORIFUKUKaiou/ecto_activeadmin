@@ -222,6 +222,7 @@ $ pwd
 /hoge/ecto_activeadmin/weathers
 $ cd ..
 $ mkdir web
+$ cd web
 $ bundle init
 ```
 
