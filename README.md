@@ -37,6 +37,27 @@ postgres=# \q
 
 - [yarn](https://yarnpkg.com/)
 
+# Building an environment on a local machine
+
+```
+$ git clone https://github.com/TORIFUKUKaiou/ecto_activeadmin
+
+# Rails
+$ cd web
+$ bundle install --path vendor/bundle
+$ bin/rails db:create
+$ bin/rails db:schema:load
+$ bin/rails db:seed
+$ bin/rails s
+
+# Elixir
+$ cd weathers
+$ mix deps.get
+$ iex -S mix
+```
+
+The below shows how to make an initial version of this project.
+
 Let's create a working directory and get started.
 
 ```
